@@ -8,14 +8,14 @@ metadata:
 spec:
   source:
     git:
-      url: https://github.com/sample-accelerators/spring-petclinic.git
+      url: https://github.com/acirom/TAPspring-petclinic
       ref:
         branch: main
         tag: tap-1.0
-      env:
-      - name: MYSQL_ROOT_PASSWORD
-        value: petclinic
-      - name: MYSQL_DATABASE
-        value: petclinic
-      - name: SPRING_PROFILE_ACTIVE
-        value: mysql
+  env:
+  - name: MYSQL_ROOT_PASSWORD
+    value: petclinic
+  - name: MYSQL_DATABASE
+    value: petclinic
+  - name: SPRING_PROFILE_ACTIVE
+    value: mysql

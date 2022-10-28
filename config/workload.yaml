@@ -12,3 +12,10 @@ spec:
       ref:
         branch: main
         tag: tap-1.0
+      env:
+      - name: MYSQL_ROOT_PASSWORD
+        value: petclinic
+      - name: MYSQL_DATABASE
+        value: petclinic
+      - name: SPRING_PROFILE_ACTIVE
+        value: mysql
